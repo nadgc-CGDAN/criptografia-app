@@ -13,7 +13,7 @@ project_structure = {
         "aes_module.py",
         "des_module.py",
         "rsa_module.py",
-        "hybrid_module.py"
+      
     ]
 }
 
@@ -33,7 +33,7 @@ streamlit run app_streamlit.py
     "crypto_algorithms/aes_module.py": "def encrypt_aes(text): return 'aes_' + text\ndef decrypt_aes(ciphertext): return ciphertext.replace('aes_', '')",
     "crypto_algorithms/des_module.py": "def encrypt_des(text): return 'des_' + text\ndef decrypt_des(ciphertext): return ciphertext.replace('des_', '')",
     "crypto_algorithms/rsa_module.py": "def encrypt_rsa(text): return 'rsa_' + text\ndef decrypt_rsa(ciphertext): return ciphertext.replace('rsa_', '')",
-    "crypto_algorithms/hybrid_module.py": "def hybrid_encrypt(text): return 'hybrid_' + text\ndef hybrid_decrypt(ciphertext): return ciphertext.replace('hybrid_', '')"
+   
 }
 
 # Criar diretórios e arquivos
